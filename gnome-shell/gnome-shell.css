@@ -1,0 +1,115 @@
+/* Panel */
+#panelBox {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+}
+
+#panel {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(100, 100, 100, 0.34);
+  border-radius: 12px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.panel-button,
+.panel-button .clock,
+.clock-display StIcon {
+	border-radius: 12px;
+}
+
+
+/* Menu */
+.popup-menu-content, /* ArcMenu, date, right click, ... */
+.switcher-list, /* Application switcher */
+.switcher-list .item-box,
+.workspace-switcher,
+.osd-window, /* Volume, brightness, ... */
+.modal-dialog, /* Power off, ... */
+.notification-banner {
+  border-radius: 12px;
+  background: #242424;
+}
+
+.switcher-list .item-box:hover,
+.switcher-list .item-box:selected {
+  border-radius: 12px;
+  background: #676767;
+}
+
+
+/* Quick Settings */
+.quick-settings,
+.icon-button,
+.quick-toggle,
+.quick-menu-toggle .quick-toggle,
+.quick-toggle-menu .header .icon {
+	border-radius: 12px;
+}
+
+.quick-toggle-menu {
+  border-radius: 12px;
+  background: #373737;
+}
+
+.quick-menu-toggle .quick-toggle:ltr {
+  border-radius: 12px 0 0 12px;
+}
+.quick-menu-toggle .quick-toggle:rtl {
+  border-radius: 0 12px 12px 0;
+}
+
+.quick-menu-toggle .quick-toggle-arrow:ltr {
+	border-radius: 0 12px 12px 0;
+	border-left-width: 2px;
+}
+
+.quick-menu-toggle .quick-toggle-arrow:rtl {
+	border-radius: 12px 0 0 12px;
+	border-right-width: 2px;
+}
+
+.quick-slider .icon-button {
+	padding: 6px;
+	border-radius: 12px;
+}
+
+
+/* Calendar */
+.datemenu-today-button,
+.calendar-month-header .calendar-month-label,
+.calendar-day.calendar-day-heading,
+.calendar .calendar-day-heading,
+.calendar-day,
+.calendar-month-header .pager-button {
+	border-radius: 12px;
+}
+
+.calendar {
+  border-radius: 12px;
+  background: #353535;
+}
+
+
+/* Buttons */
+.window-close, /* (overview) */
+.screenshot-ui-close-button {
+	background-color: #B00000;
+	color: white;
+	border-radius: 12px;
+}
+
+.window-close:hover,
+.screenshot-ui-close-button:hover {
+	background-color: #FF0000;
+}
+
+
+/* Sliders */
+.slider,
+.level {
+	-barlevel-height: 16px;
+	height: 16px; /* For the warning */
+	-slider-handle-radius: 8px;
+}
+
