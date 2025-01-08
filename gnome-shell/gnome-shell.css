@@ -18,7 +18,7 @@
 	border-radius: 12px;
 }
 
-/* Not working perfectly */
+/* WIP */
 /*#dashtopanelScrollview StWidget {
   border-radius: 10px;
 }
@@ -118,7 +118,7 @@
 .slider,
 .level {
 	-barlevel-height: 20px;
-  height: 20px;
+  height: 20px; /* For the warning */
 	-slider-handle-radius: 10px;
 }
 
