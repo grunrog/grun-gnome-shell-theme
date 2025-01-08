@@ -18,6 +18,20 @@
 	border-radius: 12px;
 }
 
+/* Not working perfectly */
+/*#dashtopanelScrollview StWidget {
+  border-radius: 10px;
+}
+
+#dashtopanelScrollview .dash-item-container > StWidget {
+  height: 34px !important;
+  width: 38px !important;
+
+  border-top: 3px;
+  border-bottom: 3px;
+  border-right: 3px;
+}*/
+
 
 /* Menu */
 .popup-menu-content, /* ArcMenu, date, right click, ... */
@@ -40,16 +54,16 @@
 
 /* Quick Settings */
 .quick-settings,
-.icon-button,
 .quick-toggle,
+.quick-toggle-menu .header .icon,
 .quick-menu-toggle .quick-toggle,
-.quick-toggle-menu .header .icon {
-	border-radius: 12px;
+.icon-button {
+  border-radius: 12px;
 }
 
 .quick-toggle-menu {
   border-radius: 12px;
-  background: #373737;
+  background-color: #242424;
 }
 
 .quick-menu-toggle .quick-toggle:ltr {
@@ -67,11 +81,6 @@
 .quick-menu-toggle .quick-toggle-arrow:rtl {
 	border-radius: 12px 0 0 12px;
 	border-right-width: 2px;
-}
-
-.quick-slider .icon-button {
-	padding: 6px;
-	border-radius: 12px;
 }
 
 
@@ -108,8 +117,19 @@
 /* Sliders */
 .slider,
 .level {
-	-barlevel-height: 16px;
-	height: 16px; /* For the warning */
-	-slider-handle-radius: 8px;
+	-barlevel-height: 20px;
+  height: 20px;
+	-slider-handle-radius: 10px;
 }
 
+.quick-slider .icon-button {
+	border-radius: 12px;
+  padding: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #242424;
+}
+
+.quick-slider .icon-button:hover {
+  background-color: #474747;
+}
