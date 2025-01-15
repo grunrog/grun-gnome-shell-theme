@@ -73,6 +73,10 @@
   border-radius: 0 12px 12px 0;
 }
 
+.quick-menu-toggle .quick-toggle:last-child {
+	border-radius: 12px;
+}
+
 .quick-menu-toggle .quick-toggle-arrow:ltr {
 	border-radius: 0 12px 12px 0;
 	border-left-width: 2px;
