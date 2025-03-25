@@ -8,4 +8,3 @@ all: clean
 clean:
 	@gsettings reset org.gnome.shell.extensions.user-theme name
 	@rm -rf ~/.themes/grun-gnome-shell-theme
-

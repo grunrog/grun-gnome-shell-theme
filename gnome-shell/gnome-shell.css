@@ -1,13 +1,9 @@
 /* Panel */
-#panelBox {
-  padding-bottom: 6px;
-  padding-right: 12px;
-}
+/*#panelBox {}*/
 
 #panel {
   background: rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(100, 100, 100, 0.34);
-  border-radius: 12px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
 }
 
@@ -16,20 +12,6 @@
 .clock-display StIcon {
 	border-radius: 12px;
 }
-
-/* WIP */
-/*#dashtopanelScrollview StWidget {
-  border-radius: 10px;
-}
-
-#dashtopanelScrollview .dash-item-container > StWidget {
-  height: 34px !important;
-  width: 38px !important;
-
-  border-top: 3px;
-  border-bottom: 3px;
-  border-right: 3px;
-}*/
 
 
 /* Menu */
