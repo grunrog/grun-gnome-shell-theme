@@ -24,13 +24,13 @@
 .modal-dialog, /* Power off, ... */
 .notification-banner {
   border-radius: 12px;
-  background: #242424;
+  background: #222226;
 }
 
 .switcher-list .item-box:hover,
 .switcher-list .item-box:selected {
   border-radius: 12px;
-  background: #676767;
+  background: #3d3d40;
 }
 
 
@@ -44,7 +44,7 @@
 }
 
 .quick-toggle-has-menu .quick-toggle-separator {
-  background: #242424;
+  background: #222226;
   margin-right: 2px;
 }
 
@@ -58,7 +58,7 @@
 
 .quick-toggle-menu {
   border-radius: 12px;
-  background: #242424;
+  background: #36363a;
 }
 
 
@@ -74,7 +74,7 @@
 
 .calendar {
   border-radius: 12px;
-  background: #353535;
+  background: #36363a;
 }
 
 
@@ -105,9 +105,9 @@
   padding: 1px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #242424;
+  background-color: #48484b;
 }
 
 .quick-slider .icon-button:hover {
-  background-color: #474747;
+  background-color: #515155;
 }
