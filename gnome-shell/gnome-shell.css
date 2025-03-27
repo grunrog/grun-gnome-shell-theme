@@ -1,5 +1,6 @@
 /* Panel */
-/*#panelBox {}*/
+/*#panelBox {
+}*/
 
 #panel {
   background: rgba(0, 0, 0, 0.4);
@@ -35,37 +36,29 @@
 
 /* Quick Settings */
 .quick-settings,
+.icon-button,
 .quick-toggle,
-.quick-toggle-menu .header .icon,
 .quick-menu-toggle .quick-toggle,
-.icon-button {
+.quick-toggle-menu .header .icon {
   border-radius: 12px;
+}
+
+.quick-toggle-has-menu .quick-toggle-separator {
+  background: #242424;
+  margin-right: 2px;
+}
+
+.quick-toggle-has-menu .quick-toggle:ltr {
+  border-radius: 12px 4px 4px 12px;
+}
+
+.quick-toggle-has-menu .quick-toggle-menu-button:ltr {
+	border-radius: 4px 12px 12px 4px;
 }
 
 .quick-toggle-menu {
   border-radius: 12px;
-  background-color: #242424;
-}
-
-.quick-menu-toggle .quick-toggle:ltr {
-  border-radius: 12px 0 0 12px;
-}
-.quick-menu-toggle .quick-toggle:rtl {
-  border-radius: 0 12px 12px 0;
-}
-
-.quick-menu-toggle .quick-toggle:last-child {
-	border-radius: 12px;
-}
-
-.quick-menu-toggle .quick-toggle-arrow:ltr {
-	border-radius: 0 12px 12px 0;
-	border-left-width: 2px;
-}
-
-.quick-menu-toggle .quick-toggle-arrow:rtl {
-	border-radius: 12px 0 0 12px;
-	border-right-width: 2px;
+  background: #242424;
 }
 
 
