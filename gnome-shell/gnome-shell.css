@@ -103,9 +103,9 @@
   padding: 1px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #48484b;
+  background-color: #222226;
 }
 
 .quick-slider .icon-button:hover {
-  background-color: #515155;
+  background-color: #48484b;
 }
