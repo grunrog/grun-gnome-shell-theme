@@ -13,7 +13,7 @@
 }
 
 
-/* Menu */
+/* Menus */
 .popup-menu-content, /* ArcMenu, date, right click, ... */
 .switcher-list, /* Application switcher */
 .switcher-list .item-box,
@@ -76,7 +76,7 @@
 }
 
 
-/* Notification */
+/* Notifications */
 .message-view .message {
 	background-color: #36363a;
 	border-radius: 12px;
