@@ -43,7 +43,7 @@
 
 .quick-toggle-has-menu .quick-toggle-separator {
   background: #222226;
-  margin-right: 2px;
+  margin-right: 3px;
 }
 
 .quick-toggle-has-menu .quick-toggle:ltr {
@@ -76,17 +76,60 @@
 }
 
 
+/* Notification */
+.message-view .message {
+	background-color: #36363a;
+	border-radius: 12px;
+}
+
+.message-view .message:hover {
+	background-color: #3e3e43;
+}
+
+.message-close-button {
+  min-height: 24px;
+  min-width: 24px;
+  border-radius: 9px;
+  background-color: #8a1a1a;
+}
+
+.message-close-button:hover {
+  background-color: #aa1a1a;
+}
+
+.message-expand-button,
+.message-collapse-button {
+  border-radius: 9px;
+  background-color: #545457;
+}
+
+.message-expand-button:hover,
+.message-collapse-button:hover {
+  background-color: #77777b;
+}
+
+
 /* Buttons */
 .window-close, /* (overview) */
 .screenshot-ui-close-button {
+  border-radius: 12px;
 	background-color: #B00000;
 	color: white;
-	border-radius: 12px;
 }
 
 .window-close:hover,
 .screenshot-ui-close-button:hover {
 	background-color: #FF0000;
+}
+
+
+/* Toggles */
+.toggle-switch {
+  border-radius: 11px;
+}
+
+.toggle-switch .handle {
+  border-radius: 9px;
 }
 
 
